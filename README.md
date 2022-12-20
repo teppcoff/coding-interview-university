@@ -641,7 +641,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
-    - [ ] Practice in LeetCode
+    - [ ] [Practice] in LeetCode
        - [ ] [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) 
 
 - ### Linked Lists
