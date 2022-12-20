@@ -609,10 +609,13 @@ if you can identify the runtime complexity of different algorithms. It's a super
 - ### Arrays
     - [ ] About Arrays:
     	- [x] [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
-        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [x] [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+           - [Memo] Definition of Array, How fast operations on Arrays are
+        - [x] [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+           - [Memo] Arrays, field "length", Primes Algorithm "Sieve of Erastosthenes", Multi-dimensional Arrays "Pascal Triangle"
+        - [x] [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+           - [Memo] Operations on Dynamic Arrays, How fast
+        - [x] [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] New raw data array with allocated memory
@@ -638,6 +641,8 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+    - [ ] Practice in LeetCode
+       - [ ] [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) 
 
 - ### Linked Lists
     - [ ] Description:
