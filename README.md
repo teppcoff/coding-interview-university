@@ -715,9 +715,12 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] Videos:
         - [x] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
            - [Memo] Hash Motivation, Badness of Array and Solution (prehash, hash), Chaining with Linked List, Hash func (Universal Hashing)
-        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [x] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
            - [12/21] ~19:00
-           - [Zakki] Difficult is the illustration of Running Time or Operarition Time
+           - [Memo] Recall Hash -> We ignored the Growth of Table -> Table Doubling, String Matching -> Rolling Hash ADT (Karp-Rabin Matchin Algorithm)
+           - [Memo in detail] operation time Hash take is Θ(1 + α) with α = n/m, n = size of key space, m = size of table slot. so as long as α is contant, operation time grows in constant (1 + α). This is because we want m = Θ(n), => α = Θ(1). (6:11)
+           - [Zakki] Difficult is the illustration of Running Time or Operarition Time, Amortized Analysis is used for algorithms where an occasional operation is very slow, but most of the other operations are faster.
+           - [Cannot to Understand] Cost of insert n is Θ(n) in Table Doubling (15:00)
         - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [PyCon 2017: The Dictionary Even Mightier (video)](https://www.youtube.com/watch?v=66P5FMkWoVU)
