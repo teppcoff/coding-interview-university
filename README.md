@@ -721,7 +721,9 @@ if you can identify the runtime complexity of different algorithms. It's a super
            - [Memo in detail] operation time Hash take is Θ(1 + α) with α = n/m, n = size of key space, m = size of table slot. so as long as α is contant, operation time grows in constant (1 + α). This is because we want m = Θ(n), => α = Θ(1). (6:11)
            - [Zakki] Difficult is the illustration of Running Time or Operarition Time, Amortized Analysis is used for algorithms where an occasional operation is very slow, but most of the other operations are faster.
            - [Cannot to Understand] Cost of insert n is Θ(n) in Table Doubling (15:00)
-        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [x] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+           - [Memo]Open Addressing: Hash implementated with Array (no chaining) ,using Uniform Hashing (≠ Simple Uniform Hashing); Cryptographic Hashing: Used in a lot of real applications
+           - [PDF of the lecture]: https://courses.csail.mit.edu/6.006/fall11/lectures/lecture10.pdf
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [PyCon 2017: The Dictionary Even Mightier (video)](https://www.youtube.com/watch?v=66P5FMkWoVU)
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
