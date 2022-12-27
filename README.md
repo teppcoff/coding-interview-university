@@ -841,6 +841,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - ### Heap / Priority Queue / Binary Heap
     - visualized as a tree, but is usually linear in storage (array, linked list)
+    - [Memo] Heap is used as a word of data structure here.
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [x] [Introduction (video)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
        - [Memo] Algorithms using Priority Queue: Dijsktra, Prim, Huffman, Heap Sort
@@ -852,9 +853,16 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
     - [ ] [Heap Sort (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
     - [ ] [Building a heap (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
-    - [Video I Added] https://www.youtube.com/watch?v=2DmK_H7IdTo 
-    - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
+    - [Video I Added] https://www.youtube.com/watch?v=2DmK_H7IdTo
+       - [Memo] No need to watch.
+    - [x] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+       - [Memo] The assumption of max-heapify "the trees rooted at left and right are max heaps" is the key for O(nlog n).
+       - [Difficult] The reason that careful assumption get to O(n).(39:00~)
+    - [x] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
+       - [Memo] Pritority Queues is ADT, and Binary Heap is an implementation of it.
+       - [Memo] Order is Level Ordering.
+       - [Memo] Commonly used as "Event Queues".
+       - [Memo] Compare running time with (Un)sorted List.
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
     - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
     - [ ] Implement a max-heap:
