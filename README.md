@@ -922,6 +922,10 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - [ ] UC Berkeley:
     - [ ] [CS 61B Lecture 29: Sorting I (video)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
+       - [Memo] Insertion Sort: O(n^2), in-place (with array)
+       - [Memo] Selection Sort: O(n^2), in-place (with array)
+       - [Memo] Heap Sort: O(nlog n) becase ButtomUpHeap() is O(n) and RemoveMin() is O(log n), in-place (with backward heap in array), excellent for arrays but clumsy for linked-lists
+       - [Memo] Merge Sort: O(nlog n), natural for linked-list but not in-place for arrays
     - [ ] [CS 61B Lecture 30: Sorting II (video)](https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk)
     - [ ] [CS 61B Lecture 32: Sorting III (video)](https://archive.org/details/ucberkeley_webcast_Y6LOLpxg6Dc)
     - [ ] [CS 61B Lecture 33: Sorting V (video)](https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4)
