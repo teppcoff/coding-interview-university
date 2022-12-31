@@ -926,7 +926,11 @@ if you can identify the runtime complexity of different algorithms. It's a super
        - [Memo] Selection Sort: O(n^2), in-place (with array)
        - [Memo] Heap Sort: O(nlog n) becase ButtomUpHeap() is O(n) and RemoveMin() is O(log n), in-place (with backward heap in array), excellent for arrays but clumsy for linked-lists
        - [Memo] Merge Sort: O(nlog n), natural for linked-list but not in-place for arrays
-    - [ ] [CS 61B Lecture 30: Sorting II (video)](https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk)
+    - [x] [CS 61B Lecture 30: Sorting II (video)](https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk)
+       - [Memo] Quicksort is the fastest comparison-based sort for arrays (mergesort is better for linked lists).
+       - [Memo] worst case is Θ(n^2) if already sorted list, but in practice virtually O(nlog n). (choose pivot randomly)
+       - [Memo] On linked-lists, partition list into 3 lists. (3 way partitioning quicksort)
+       - [Memo] In-place on arrays.
     - [ ] [CS 61B Lecture 32: Sorting III (video)](https://archive.org/details/ucberkeley_webcast_Y6LOLpxg6Dc)
     - [ ] [CS 61B Lecture 33: Sorting V (video)](https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4)
     - [ ] [CS 61B 2014-04-21: Radix Sort(video)](https://archive.org/details/ucberkeley_webcast_pvbBMd-3NoI)
