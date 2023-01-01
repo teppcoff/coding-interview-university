@@ -937,7 +937,12 @@ if you can identify the runtime complexity of different algorithms. It's a super
        - [Memo] Quickselect: Θ(n) if pivot is selected randomly.
        - [Memo] A Lower bound on comparison-based sorting: n! <= n^n, n! >= (n/2)^(n/2) so log(n!) ∈ Θ(nlog n), n! <= 2^d (d = #true/false questions) so d ∈ Ω(nlog n), Every comparison-based sorting alog takes Ω(nlog n) worst-case time.
        - [Memo] Linear-time sorting: Bucket sort works when keys are in small range (e.g. 0 to q-1 i.e. when q ∈ O(n)), (q is #keys) running time is Θ(q+n) so Θ(n) if q < n.
-    - [ ] [CS 61B Lecture 33: Sorting V (video)](https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4)
+    - [x] [CS 61B Lecture 33: Sorting V (video)](https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4)
+       - [Memo] Counting Sort similars to Bucket Sort, but no associated value.
+       - [Memo] Counting Sort with Complete Items (associated with value) 
+       - [Memo] Bucket & Counting Sort are both O(n+q) and stable: Counting sort taked less memory with array, Bucket sort is natural with linked-lists.
+       - [Memo] Radix Sort: q >> n (q is #keys), sort on each digit only (choose q so q is power of two).
+       - [Memo] Radix Sort takes #passes = b/(log2 q), running time is O((n+q)b/(log2 q)), if choose q ≒ n O(n + (b/(log n))n), but for less memory q ≒ √n (this is trade-off). 
     - [ ] [CS 61B 2014-04-21: Radix Sort(video)](https://archive.org/details/ucberkeley_webcast_pvbBMd-3NoI)
 
 - [ ] [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
