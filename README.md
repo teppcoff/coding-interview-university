@@ -1014,6 +1014,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 - [ ] MIT(videos):
     - [ ] [Breadth-First Search](https://www.youtube.com/watch?v=oFVYVzlvk9c&t=14s&ab_channel=MITOpenCourseWare)
+       - [ ] ~22:40 1/11
     - [ ] [Depth-First Search](https://www.youtube.com/watch?v=IBfWDYSffUU&t=32s&ab_channel=MITOpenCourseWare)
 
 - [ ] Skiena Lectures - great intro:
