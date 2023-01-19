@@ -1016,7 +1016,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [x] [Breadth-First Search](https://www.youtube.com/watch?v=oFVYVzlvk9c&t=14s&ab_channel=MITOpenCourseWare)
        - [Memo] Hard to listen. Graph, Model Graph Problems (Single Sorce Shortest Paths), Level Set, Breadth-First Search O(|V| + |E|)
     - [x] [Depth-First Search](https://www.youtube.com/watch?v=IBfWDYSffUU&t=32s&ab_channel=MITOpenCourseWare)
-       - [Memo] DFS O(|E|), Conectivity on Undirected Graph (full-DFS), Directed Acyclic Graph (Topological order, Finishing order), Cycle detection
+       - [Memo] DFS O(|E| + |V|), Conectivity on Undirected Graph (full-DFS), Directed Acyclic Graph (Topological order, Finishing order), Cycle detection
 
 - [ ] Skiena Lectures - great intro:
     - [x] [CSE373 2020 - Lecture 10 - Graph Data Structures (video)](https://www.youtube.com/watch?v=Sjk0xqWWPCc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=10)
@@ -1024,7 +1024,10 @@ Graphs can be used to represent many problems in computer science, so this secti
        - [Memo] Data structures for Graph: Adjacency Matrix, Adjacency Lists, Incidence Matrix; Convert from one to another
     - [x] [CSE373 2020 - Lecture 11 - Graph Traversal (video)](https://www.youtube.com/watch?v=ZTwjXj81NVY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=11)
        - [Memo] Breadth-First Search: states of vertices, parent, connected components, tree of BFS and shortest path
-    - [ ] [CSE373 2020 - Lecture 12 - Depth First Search (video)](https://www.youtube.com/watch?v=KyordYB3BOs&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=12)
+    - [Summary] [CSE373 2020 - Lecture 12 - Depth First Search (video)](https://www.youtube.com/watch?v=KyordYB3BOs&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=12)
+       - [Memo] BFS application: Bipartite Graph (Two Coloring Graph)
+       - [Memo] Every BFS edge is either Tree Edge or Cross Edge, every DFS edge is either Tree Edge or Back Edge.
+       - [Memo] DFS application: Finding Cycles, Articulation Vertices, Topological Sorting
     - [ ] [CSE373 2020 - Lecture 13 - Minimum Spanning Trees (video)](https://www.youtube.com/watch?v=oolm2VnJUKw&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=13)
     - [ ] [CSE373 2020 - Lecture 14 - Minimum Spanning Trees (con't) (video)](https://www.youtube.com/watch?v=RktgPx0MarY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=14)
     - [ ] [CSE373 2020 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=MUe5DXRhyAo&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=15)
