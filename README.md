@@ -1071,9 +1071,15 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 - ### Recursion
     - [ ] Stanford lectures on recursion & backtracking:
-        - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
-        - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
+        - [Summary] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
+           - [Memo] Power example, Palindromes, Binary Search, Choosing a subset
+        - [Summary] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
+           - [Memo] Recursive Decomposition: Find recursive sub-structure, Identify base case 
+           - [Memo] Common Patterns: 1.Handle first or/and last, recur on rest.  2.Divide in half, recur on both/one halves. 3.Make a choice among options, recur on updated state
+           - [Memo] Placement of recursion
+           - [Memo] Recursive Fractals, Piet Mondrian, Tower, Permutation
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
+            - [ ] ~25:00
         - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
     - When it is appropriate to use it?
     - How is tail recursion better than not?
