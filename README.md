@@ -1078,9 +1078,12 @@ Graphs can be used to represent many problems in computer science, so this secti
            - [Memo] Common Patterns: 1.Handle first or/and last, recur on rest.  2.Divide in half, recur on both/one halves. 3.Make a choice among options, recur on updated state
            - [Memo] Placement of recursion
            - [Memo] Recursive Fractals, Piet Mondrian, Tower, Permutation
-        - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
-            - [ ] ~25:00
-        - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
+        - [Summary] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
+           - [Memo] Refresh "Permutate code", Subsets. Both are exhaustive recursion (N!, 2^N).
+           - [Memo] Recursive backtracking: Stop and return true when one option satisfied requirement.
+           - [Memo] Anagram (similar to permutation), 8 queens (place N queens on board so none threatened on N columns.)
+        - [Summary] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
+           - [Memo] Sudoku, Cryptarithmetic (Dumb solver, Smarter solver using "筆算")
     - When it is appropriate to use it?
     - How is tail recursion better than not?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
